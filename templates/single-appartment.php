@@ -6,6 +6,7 @@
                     <div class="section-single-app-content-left">
                         <a href="filter_appartments.php" class="single-app-back animation-element-default">до вибору квартир</a>
                         <div class="app-info">
+                            <span class="app-type animation-element-default">1A-1</span>
                             <h1 class="animation-element-default">Технічні <br><span class="decorate-leaf">характеристики</span></h1>
                             <ul class="app-specs-list animation-element-default">
                                 <li>

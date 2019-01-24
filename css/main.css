@@ -5147,7 +5147,17 @@ a.single-app-back::before {
 }
 
 .app-info {
-    margin: .6rem 0 0 0;
+    margin: .35rem 0 0 0;
+}
+
+.app-type {
+    display: block;
+    font-size: .25rem;
+    line-height: .25rem;
+    font-weight: 600;
+    color: rgba(64,83,100,.5);
+    text-transform: uppercase;
+    margin: 0 0 .15rem 0;
 }
 
 .app-info > h1 {
