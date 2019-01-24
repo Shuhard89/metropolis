@@ -4606,6 +4606,10 @@ a.intro-progress-content-left-link {
 
 /* PAGE - FILTER */
 
+.page-wrapper-filter-apps ~ .main-footer {
+    display: none;
+}
+
 .filter-page-container {
     padding: .7rem 0 0 4.83rem;
 }
@@ -5869,6 +5873,7 @@ a.apps-slider-container-footer-link:hover::after {
 .mobile-header,
 .mobile-header-content,
 .mobile-filter-button,
+a.mobile-filter-button,
 .mobile-filter-close-btn {
     display: none;
 }
