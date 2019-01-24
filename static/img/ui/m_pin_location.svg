@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="22px" viewBox="0 0 30 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>m_pin_location</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Новости" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Новости_внутри_metropolis" transform="translate(-312.000000, -4058.000000)" fill="#FFFFFF">
+            <g id="Map" transform="translate(0.000000, 3660.000000)">
+                <g id="Group-30" transform="translate(294.000000, 372.000000)">
+                    <path d="M26.2457417,37.4742584 C25.2063986,37.2547394 22.4007586,36.5217435 20.6127834,34.7234063 C17.9739115,32.0679294 18.000005,28.9095592 18.000005,28.9095592 C18.000005,28.9095592 21.2809356,28.7883166 23.8916055,31.4124286 C25.1422608,32.6712224 25.8582597,34.4514642 26.2457417,35.7709119 L26.2457417,26 L30.3305636,26 L36.9725505,36.4020894 L43.6145373,26 L47.6993592,26 L47.6993592,48 L43.9260781,48 L43.9260781,32.2853754 L37.0974831,42.5941607 L36.8473543,42.5941607 L30.0190228,32.2853754 L30.0190228,48 L26.2457417,48 L26.2457417,37.4742584 Z" id="m_pin_location"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

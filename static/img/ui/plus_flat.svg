@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>plus_flat</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Апартаменты" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Апартаменты_metropolis" transform="translate(-1345.000000, -725.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="bloc_1">
+                <g id="Group-2" transform="translate(1060.000000, 680.000000)">
+                    <g id="Group-6">
+                        <g id="Group-8">
+                            <path d="M299,59 L299,45 L301,45 L301,59 L315,59 L315,61 L301,61 L301,75 L299,75 L299,61 L285,61 L285,59 L299,59 Z" id="plus_flat"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
