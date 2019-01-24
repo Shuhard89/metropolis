@@ -28,13 +28,23 @@
             </div>
             <ul class="header-sidebar-socials-list">
                 <li>
-                    <a href="#" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                    <a href="https://t.me/metropolis_dim" target="_blank">
+                        <i class="fab fa-telegram-plane"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/metropolis.ecosphere/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCYLFxg05jp5eotLHnhyeqgQ/featured" target="_blank">
                         <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/metropolis.ecosphere/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
             </ul>
