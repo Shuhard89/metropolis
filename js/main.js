@@ -1214,7 +1214,7 @@ $(function() {
     }
 
     // Rellax parallax
-    if ($(window).width() > 767) {
+    if ($(window).width() > 767 && $('.rellax').length > 0) {
         var rellax = new Rellax('.rellax');
     }
 
