@@ -22,6 +22,13 @@
                                     <span>м² загальної площі</span>
                                 </li>
                             </ul>
+                            <ul class="single-app-secondry-specs-list animation-element-default">
+                                <li><span class="app-item">1</span>Передпокій — 6.01 м²</li>
+                                <li><span class="app-item">2</span>Кухня-вітальня — 18.26 м²</li>
+                                <li><span class="app-item">3</span>Кімната — 17.79 м²</li>
+                                <li><span class="app-item">4</span>Ванна кімната — 4.68 м²</li>
+                                <li><span class="app-item">5</span>Гардироб — 3.07 м²</li>
+                            </ul>
                             <div class="single-app-btns animation-element-default">
                                 <span class="button cta-feedback">Організувати перегляд</span>
                                 <br>

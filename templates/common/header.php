@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/rSlider.min.css">
     <link rel="stylesheet" href="css/selectize.css">
-    <link rel="stylesheet" href="css/main.css?ver=1.05">
-    <link rel="stylesheet" href="css/mediaq.css?ver=1.05">
+    <link rel="stylesheet" href="css/main.css?ver=1.06">
+    <link rel="stylesheet" href="css/mediaq.css?ver=1.06">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>

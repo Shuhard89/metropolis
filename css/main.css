@@ -5196,8 +5196,41 @@ a.single-app-back::before {
     letter-spacing: .004rem;
 }
 
+.single-app-secondry-specs-list {
+    column-count: 2;
+    column-gap: .5rem;
+    font-weight: 600;
+    font-size: .14rem;
+    line-height: .3rem;
+    counter-reset: secondary-specs;
+}
+
+.single-app-secondry-specs-list > li {
+    display: inline-block;
+    vertical-align: text-bottom;
+    position: relative;
+    padding: 0 0 0 .45rem;
+    margin: 0 0 .1rem 0;
+}
+
+.single-app-secondry-specs-list > li .app-item {
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    background-color: #69BF4A;
+    font-weight: bold;
+    font-size: .14rem;
+    line-height: .3rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .single-app-btns {
-    margin: .1rem 0 0 0;
+    margin: .3rem 0 0 0;
 }
 
 .single-app-btns .button {
@@ -5869,8 +5902,12 @@ a.apps-slider-container-footer-link:hover::after {
         transition-delay: .2s;
     }
 
-    .single-app-btns.animation-element-default {
+    .single-app-secondry-specs-list.animation-element-default {
         transition-delay: .3s;
+    }
+
+    .single-app-btns.animation-element-default {
+        transition-delay: .4s;
     }
 }
 
