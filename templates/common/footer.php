@@ -137,6 +137,17 @@
                 });
             </script>
         <?php }
+        if ( strpos( $currentpage, 'category_floors.php' ) == true ) { ?>
+            <script>
+                $(function() {
+                    // Custom select
+                    $('#sort_select').selectize({
+                        create: true,
+                        sortField: 'asc'
+                    });
+                });
+            </script>
+        <?php }        
         if ( strpos( $currentpage, 'filter_appartments.php' ) == true ) { ?>
             <script>
                 $(function() {
