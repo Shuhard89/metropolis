@@ -5785,14 +5785,6 @@ a.apps-slider-container-footer-link:hover::after {
 }
 
 
-
-
-
-
-
-
-
-
 /* Reveals animation */
 
 /* PAGE - HOME */
@@ -5911,9 +5903,6 @@ a.apps-slider-container-footer-link:hover::after {
     }
 }
 
-
-
-
 /* MOBILE TAILS */
 
 .mobile-only,
@@ -5922,5 +5911,10 @@ a.apps-slider-container-footer-link:hover::after {
 .mobile-filter-button,
 a.mobile-filter-button,
 .mobile-filter-close-btn {
+    display: none;
+}
+
+/* CATEGORY FLOORS SELECTION */
+.page-wrapper-category-floors + .main-footer {
     display: none;
 }
