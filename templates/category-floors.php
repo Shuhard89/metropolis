@@ -1,6 +1,6 @@
 <div class="page-wrapper-category-floors">
 	<div class="category-floors-filter-wrapper">
-		<a href="page_genplan.php" class="single-app-back animation-element-default in-view">повернутись до генплану</a>
+		<a href="page_genplan_stage.php" class="single-app-back animation-element-default in-view">повернутись до генплану</a>
 		<form action="#" id="category-floors-filter">
 			<div class="category-floors-filter-row">
 				<div id="construction-stage-filter">

@@ -6058,3 +6058,66 @@ a.mobile-filter-button,
 .floor-scheme-wrapper svg a:hover path {
     fill: #69BF4A;
 }
+/* PAGE GENPLAN */
+.page-wrapper-genplan + .main-footer {
+    display: none;
+}
+.page-wrapper-genplan {
+    position: relative;
+}
+.main-genplan {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.genplan-link path {
+    fill: rgba(105, 191, 74, 0.3);
+    stroke: #69BF4A;
+    opacity: 0;
+    transition: opacity .5s;
+    stroke-width: .03rem;
+}
+.genplan-link:hover path {
+    opacity: 1;
+}
+.page-wrapper-genplan .menu-cta-choose {
+    height: auto;
+    padding: .4rem;
+    bottom: 3.1rem;
+    opacity: 1;
+}
+.genplan-description span {
+    display: block;
+}
+.genplan-text {
+    text-shadow: 0 .02rem .1rem rgba(0, 0, 0, 0.5);
+    font-size: .18rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    transition: opacity .5s;
+    pointer-events: none;
+    position: absolute;
+}
+.genplan-subtext {
+    font-size: .12rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
+.genplan-subtext > b {
+    display: block;
+}
+.awaiting-stage {
+    cursor: auto;
+}
+.genplan-text.visible {
+    opacity: 1;
+}

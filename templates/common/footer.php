@@ -137,6 +137,30 @@
                 });
             </script>
         <?php }
+        if ( strpos( $currentpage, 'page_genplan_stage.php' ) == true ) { ?>
+            <script>
+                $(function() {
+                    $('body').addClass('overflow-hidden');
+                    // Genplan hover
+                    $('.main-genplan > a').mousemove(function (eventObject) {
+                          $data_tooltip = $(this).attr("data-description");
+                           $('.genplan-text').html($data_tooltip)
+                              .css({ 
+                                "top" : eventObject.pageY + 10,
+                                "left" : eventObject.pageX + 10
+                              })
+                              .show();
+                          }).mouseout(function () {
+                             $('.genplan-text').hide()
+                              .html("")
+                              .css({
+                                  "top" : 0,
+                                  "left" : 0
+                              });
+                      });                    
+                });
+            </script>
+        <?php }          
         if ( strpos( $currentpage, 'category_floors.php' ) == true ) { ?>
             <script>
                 $(function() {
