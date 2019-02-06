@@ -6094,7 +6094,7 @@ a.mobile-filter-button,
 }
 .genplan-text {
     text-shadow: 0 .02rem .1rem rgba(0, 0, 0, 0.5);
-    font-size: .18rem;
+    font-size: .20rem;
     font-weight: bold;
     text-align: center;
     color: #fff;
@@ -6104,7 +6104,7 @@ a.mobile-filter-button,
     position: absolute;
 }
 .genplan-subtext {
-    font-size: .12rem;
+    font-size: .14rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -6120,4 +6120,11 @@ a.mobile-filter-button,
 }
 .genplan-text.visible {
     opacity: 1;
+}
+.genplan-link-disable {
+    cursor: auto;
+}
+.genplan-link-disable path {
+    fill: rgba(233, 16, 16, 0.3);
+    stroke: #e91010;    
 }
