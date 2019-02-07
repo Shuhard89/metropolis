@@ -160,7 +160,29 @@
                       });                    
                 });
             </script>
-        <?php }          
+        <?php }
+        if ( strpos( $currentpage, 'page_genplan_stage1.php' ) || strpos( $currentpage, 'page_genplan_stage2.php' ) == true ) { ?>
+            <script>
+                $(function() {
+                    $('body').addClass('overflow-hidden');
+                    // floor select hover
+                    $('.genplan-link-floor').hover(function() {
+                        $('.floor-select-info-block').addClass('active');
+                        var houseNumber = $('#house-number');
+                        var sectionNumber = $('#section-number');
+                        var floorNumber = $('#floor-number');
+                        var attrHouseNumber = $(this).attr('data-description-house');
+                        var attrSectionNumber = $(this).attr('data-description-section');
+                        var attrFloorNumber = $(this).attr('data-description-floor');
+                        houseNumber.html(attrHouseNumber);
+                        sectionNumber.html(attrSectionNumber);
+                        floorNumber.html(attrFloorNumber);
+                    }, function() {
+                        // $('.floor-select-info-block').removeClass('active');
+                    });
+                });
+            </script>
+        <?php }               
         if ( strpos( $currentpage, 'category_floors.php' ) == true ) { ?>
             <script>
                 $(function() {

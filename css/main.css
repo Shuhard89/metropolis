@@ -6086,8 +6086,9 @@ a.mobile-filter-button,
 .page-wrapper-genplan .menu-cta-choose {
     height: auto;
     padding: .4rem;
-    bottom: 3.1rem;
+    bottom: 2rem;
     opacity: 1;
+    transform: translateY(0);   
 }
 .genplan-description span {
     display: block;
@@ -6127,4 +6128,98 @@ a.mobile-filter-button,
 .genplan-link-disable path {
     fill: rgba(233, 16, 16, 0.3);
     stroke: #e91010;    
+}
+.house-name-block > span {
+    display: block;
+    padding: .15rem;
+    background-color: #fff;
+    font-size: .16rem;
+    font-weight: 600;
+    color: #3E5363;
+    letter-spacing: .004rem;
+    line-height: .2rem;
+    position: absolute;
+    z-index: 3;
+}
+.house-name1 {
+    bottom: 1.8rem;
+    left: 3.4rem;
+}
+.house-name2 {
+    bottom: 1rem;
+    left: 5.5rem; 
+}
+.floor-select-info-block {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    transition: transform .5s;
+    transform: translateX(100%);
+}
+.floor-select-info-block.active {
+    transform: translateX(0);
+}
+.floor-select-info-block > a {
+    position: initial;
+}
+.floor-select-info {
+    padding: .4rem .5rem .26rem;
+    background-color: #fff;
+    text-align: center;
+}
+.floor-select-info-top-row {
+    border-bottom: .02rem solid #F2F2F2;
+    margin-bottom: .18rem;
+}
+.floor-select-info-top-row-list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 .26rem 0;
+}
+.floor-select-info-top-row-list li span {
+    display: block;
+}
+.select-floor-info {
+    font-size: .5rem;
+    color: #69BF4A;
+    font-weight: 600;
+    letter-spacing: -.0125rem;
+    line-height: .5rem;
+    margin-bottom: .04rem;
+}
+.select-floor-descr {
+    font-size: .14rem;
+    color: #3E5363;
+    letter-spacing: .01rem;
+    text-transform: uppercase;
+    line-height: .2rem;
+    font-weight: 600;
+}
+.floor-select-info-bottom-row span {
+    display: block;
+}
+.select-floor-num {
+    font-size: .5rem;
+    color: #3E5363;
+    letter-spacing: -.0125rem;
+    text-align: center;
+    line-height: .5rem;
+    font-weight: 600;
+    margin-bottom: .04rem;
+}
+.genplan-link-floor path {
+    fill: #fff;
+    transition: opacity .5s;
+    opacity: 0;
+}
+.genplan-link-floor:hover path {
+    opacity: .7;
+}
+.house-name3 {
+    bottom: 1rem;
+    left: 3.4rem;
 }
