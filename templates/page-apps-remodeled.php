@@ -233,7 +233,7 @@
 	        		<ul class="styles-list">
 	        			<li>
 	        				<h4 class="style-label">Спальня</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '50', y: '30', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '20', y: '52', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '22', y: '71', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '22', y: '90', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/1.png" alt="style image">
 		        				</div>
@@ -241,7 +241,7 @@
 	        			</li>
 	        			<li>
 	        				<h4 class="style-label">Кухня</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '30', y: '10', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '20', y: '55', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '15', y: '90', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '53', y: '48', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/2.png" alt="style image">
 		        				</div>
@@ -249,7 +249,7 @@
 	        			</li>
 	        			<li>
 	        				<h4 class="style-label">Санузел</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '20', y: '23', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '18', y: '80', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '60', y: '75', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '85', y: '70', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/3.png" alt="style image">
 		        				</div>
@@ -339,7 +339,7 @@
 	        		<ul class="styles-list">
 	        			<li>
 	        				<h4 class="style-label">Спальня</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '50', y: '30', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '20', y: '52', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '22', y: '71', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '22', y: '90', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/1.png" alt="style image">
 		        				</div>
@@ -347,7 +347,7 @@
 	        			</li>
 	        			<li>
 	        				<h4 class="style-label">Кухня</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '30', y: '10', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '20', y: '55', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '15', y: '90', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '53', y: '48', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/2.png" alt="style image">
 		        				</div>
@@ -355,7 +355,7 @@
 	        			</li>
 	        			<li>
 	        				<h4 class="style-label">Санузел</h4>
-	        				<div class="style-img-container-wrapper rellax" data-rellax-speed="2" data-rellax-percentage="-.5">
+	        				<div class="style-img-container-wrapper rellax-delayed" data-rellax-speed="2" data-rellax-percentage="0.5">
 		        				<div class="style-img-container" data-markers="[{x: '20', y: '23', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '18', y: '80', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '60', y: '75', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}, {x: '85', y: '70', title: 'Обои под покраску', description: 'При желании поверхность можно перекрашивать до 10 раз.'}]">
 		        					<img src="static/img/page_apps_remodeled/styles/3.png" alt="style image">
 		        				</div>
@@ -461,7 +461,7 @@
 	        				</li>
 	        			</ul>
 	        		</div>
-	        		<div class="section-remodel-phylosophy-slider-info-pane rellax" data-rellax-speed="-2" data-rellax-percentage="0.5">
+	        		<div class="section-remodel-phylosophy-slider-info-pane rellax-delayed" data-rellax-speed="-2" data-rellax-percentage="0.5">
 	        			<ul class="section-remodel-phylosophy-slider-info-list">
 	        				<li>
 	        					<div>

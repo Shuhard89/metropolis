@@ -284,6 +284,10 @@
                         move_with_handle_only: true, // Allow a user to swipe anywhere on the image to control slider movement. 
                         click_to_move: true // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
                     });
+                    // Rellax parallax
+                    if ($(window).width() > 767 && $('.rellax-delayed').length > 0) {
+                        var rellax = new Rellax('.rellax-delayed');
+                    }
                 });
             </script>
         <?php }  
