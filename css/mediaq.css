@@ -1197,4 +1197,251 @@
     .close-modal-btn > img {
         width: .15rem;
     }
+
+    .section-remodeled-description-content {
+        margin: 0;
+        padding: .2rem;
+    }
+
+    .section-remodeled-advantages-bg {
+        display: none;
+    }
+
+    .section-remodeled-advantages {
+        padding: 0 .2rem;
+    }
+
+    .section-remodeled-advantages > h2 {
+        padding: 0;
+        font-size: .25rem;
+        line-height: .35rem;
+        margin: 0 0 .3rem;
+    }
+
+    .remodeled-advantages-slider-controls {
+        margin: .3rem 0 0 0;
+    }
+
+    .section-remodeled-advantages {
+        margin: 0 0 .6rem 0;
+    }
+
+    .section-comparison {
+        padding: 0;
+    }
+
+    .section-comparison > h2 {
+        padding: 0 .2rem;
+        font-size: .25rem;
+        line-height: .35rem;
+        margin: 0 0 .3rem;
+    }
+
+    .comparison-style {
+        height: .4rem;
+        line-height: .4rem;
+        min-width: .8rem;
+    }
+
+    .comparison-style {
+        font-size: .13rem;
+    }
+
+    .section-comparison {
+        margin: 0 0 .6rem 0;
+    }
+    .section-style {
+        padding: 0 .2rem;
+    }
+
+    .section-style > h3 {
+        padding: 0;
+        font-size: .25rem;
+        line-height: .35rem;
+        margin: 0 0 .3rem;
+    }
+
+    .section-style > div.clearfix > p {
+        padding: 0;
+    }
+
+    .styles-list {
+        margin: .3rem 0 0 0;
+        width: calc(100% + .4rem);
+        margin-left: -.2rem;
+    }
+
+    .style-label {
+        transform: none !important;
+        left: .16rem !important;
+        top: .16rem !important;
+        right: initial !important;
+    }
+
+    .style-img-container-wrapper {
+        padding: .6rem 0 0 0;
+        overflow: auto;
+    }
+
+    .style-img-container {
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 12rem;
+    }
+    .styles-list > li {
+        margin: 0;
+    }
+
+    .styles-list > li:nth-of-type(even) {
+        right: 0;
+    }
+
+    .tour-3d-btn {
+        margin: .3rem 0 0 0;
+    }
+
+    .style-btns a.button {
+        margin: 0 0 .1rem 0;
+    }
+
+    .style-info-list {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    .style-info-collapsable {
+        padding: .3rem .6rem 0 .3rem;
+    }
+
+    .style-info-list > li {
+        margin: 0 0 .3rem 0;
+    }
+
+    .section-style {
+        margin: 0 0 .6rem 0;
+    }
+
+    .section-style.header-reverse > h3,
+    .section-style.header-reverse > div.clearfix > p {
+        text-align: left;
+        padding: 0;
+    }
+
+    .section-remodel-phylosophy > h2 {
+        padding: 0 .2rem;
+        font-size: .25rem;
+        line-height: .35rem;
+        margin: 0 0 .3rem;
+    }
+
+    .section-remodel-phylosophy-slider-imgs-container {
+        height: 4rem;
+    }
+
+    .section-remodel-phylosophy-slider-info-pane {
+        left: .2rem;
+        width: calc(100% - .4rem);
+        padding: 0 0 .2rem 0;
+    }
+
+    .remodel-phylosophy-slider-controls-container {
+        padding: 0 .2rem;
+        margin: .3rem 0 0 0;
+    }
+
+    .remodel-phylosophy-slider-controls-separator {
+        width: .8rem;
+    }
+
+    .section-remodel-phylosophy-slider-info-list > li {
+        padding: 0 .3rem;
+    }
+
+    .section-remodel-phylosophy-slider-info-list > li > div {
+        padding: .3rem 0 0 0;
+    }
+
+    .section-remodel-phylosophy-slider-info-list > li > div > h3 {
+        font-size: .2rem;
+        line-height: .3rem;
+        margin: 0 0 .1rem 0;
+    }
+
+    .section-remodel-phylosophy-slider-info-list > li > div > p {
+        font-size: .18rem;
+        line-height: .26rem;
+    }
+
+    .section-remodel-phylosophy {
+        margin: 0 0 1.6rem 0;
+    }
+
+    .section-remodel-price > h2 {
+        padding: 0 .2rem;
+        font-size: .25rem;
+        line-height: .35rem;
+        margin: 0 0 .3rem;
+    }
+
+    .section-remodel-price-content > img {
+        display: none;
+    }
+
+    .section-remodel-price-content-pane {
+        top: 0;
+    }
+
+    .section-remodel-price-content-pane-bg {
+        display: none;
+    }
+
+    .section-remodel-price-content-pane {
+        padding: .3rem .2rem;
+    }
+
+    .section-remodel-price-content-pane-row {
+        display: block;
+    }
+
+    .section-remodel-price-content-pane-column {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    .section-remodel-price-content-pane-column:nth-of-type(1) {
+        padding: 0;
+    }
+
+    .remodel-price-block {
+        padding: 0;
+        margin: 0 0 .4rem 0;
+    }
+
+    .section-remodel-price-content-pane-form > h3 {
+        font-size: .25rem;
+        line-height: .35rem;
+        text-align: center;
+    }
+
+    .section-remodel-price-content-pane-row.last {
+        margin: .3rem 0 0 0;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section-remodel-price-content-pane-row.last .section-remodel-price-content-pane-column:nth-of-type(1) {
+        display: none;
+    }
+
+    .section-remodel-price-content-pane-row.last .section-remodel-price-content-pane-column:nth-of-type(2) .button,
+    .form-rows > li > input {
+        width: 100%;
+    }
+
+    .consult-success {
+        width: 100%;
+        padding: 0 .3rem;
+    }
 }

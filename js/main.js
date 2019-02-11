@@ -1147,6 +1147,254 @@ function feedbackModal() {
     sendContactsForm();
 }
 
+// Remodeled advantages slider
+function remodeledAdvantagesSlider(id) {
+    var container = $(id),
+        sliderContainer = container.find('.remodeled-advantages-slider-container'),
+        sliderList = container.find('.remodeled-advantages-slider-list'),
+        sliderListItem = sliderList.children('li'),
+        control = container.find('.remodeled-advantages-slider-control'),
+        totalSlides = sliderListItem.length;
+
+    // Helpers
+    function buildSlider() {
+        var slideWidth = getSlideWidth();
+        sliderListItem.outerWidth(slideWidth);
+        sliderList.outerWidth(slideWidth*totalSlides + 20);
+    }
+
+    function initSlider() {
+        buildSlider();
+        moveTo(0);
+    }
+
+    function getSlideWidth() {
+        return sliderListItem.outerWidth();
+    }
+
+    function getCurrentSlideIndex() {
+        return sliderListItem.filter('.active').index();
+    }
+
+    function moveTo(index) {
+        sliderList.css('transform', 'translateX(-'+getSlideWidth()*index+'px)');
+        sliderListItem.removeClass('active').eq(index).addClass('active');
+    }
+
+    function moveNext() {
+        if (getCurrentSlideIndex() + 1 === totalSlides) {
+            moveTo(0);
+        } else {
+            moveTo(getCurrentSlideIndex() + 1);
+        }
+    }
+
+    function movePrev() {
+        if (getCurrentSlideIndex() - 1 < 0) {
+            moveTo(totalSlides - 1);
+        } else {
+            moveTo(getCurrentSlideIndex() - 1);
+        }
+    }
+
+    // Events
+    control.on('click', function() {
+        if ($(this).hasClass('left')) {
+            movePrev();
+        } else {
+            moveNext();
+        }
+    });
+
+    // Init slider
+    initSlider();
+    $(window).on('resize', function() {
+        initSlider();
+    });
+}
+
+// Style images
+function addMetaToImages() {
+    $('.style-img-container').each(function(index, el) {
+        var data = eval($(this).data('markers'));
+        var container = $(this);
+
+        console.log(data);
+
+        data.map(function(el, index) {
+            var tipPositionX = +el.x > 50 ? 'left' : 'right';
+            var tipPositionY = +el.y > 50 ? 'top' : 'bottom';
+            var tipPositionClass = tipPositionX + '-' + tipPositionY;
+            console.log(tipPositionX);
+            container.append('<div class="style-marker" style="left:'+el.x+'%; top:'+el.y+'%"><div class="style-marker-description '+tipPositionClass+'"><h6>'+el.title+'</h6><p>'+el.description+'</p></div></div>')
+        });
+    });
+}
+
+// Collapsable style info
+function collapsableStyleInfo() {
+    $('.style-info-block > h5 > span').on('click', function() {
+        $(this).parent().next('.style-info-collapsable').slideDown(600);
+    });
+
+    $('.style-info-collapsable-close').on('click', function(event) {
+        $(this).closest('.style-info-collapsable').slideUp(600);
+    });
+}
+
+// Info sectiom slider
+function philosophySlider(id) {
+    var container = $(id),
+        sliderContainer = container.find('.section-remodel-phylosophy-slider-imgs-container'),
+        sliderContainer2 = container.find('.section-remodel-phylosophy-slider-info-pane'),
+        sliderList = container.find('.section-remodel-phylosophy-slider-imgs-list'),
+        sliderList2 = container.find('.section-remodel-phylosophy-slider-info-list'),
+        sliderListItem = sliderList.children('li'),
+        sliderListItem2 = sliderList2.children('li'),
+        control = container.find('.remodel-phylosophy-slider-control'),
+        totalSlides = sliderListItem.length,
+        currentCounter = container.find('.remodel-phylosophy-slider-counter-current'),
+        totalCounter = container.find('.remodel-phylosophy-slider-counter-total');
+
+    // Helpers
+    function buildSlider() {
+        var slideWidth = getSlideWidth();
+        sliderListItem.outerWidth(slideWidth[0]);
+        sliderListItem2.outerWidth(slideWidth[1]);
+        sliderList.outerWidth(slideWidth[0]*totalSlides + 20);
+        sliderList2.outerWidth(slideWidth[1]*totalSlides + 20);
+    }
+
+    function initSlider() {
+        buildSlider();
+        moveTo(0);
+        currentCounter.html('01');
+        totalCounter.html(totalSlides > 9 ? totalSlides : '0' + totalSlides);
+    }
+
+    function getSlideWidth() {
+        return [ sliderContainer.outerWidth(), sliderContainer2.outerWidth() ];
+    }
+
+    function getCurrentSlideIndex() {
+        return sliderListItem.filter('.active').index();
+    }
+
+    function moveTo(index) {
+        sliderList.css('transform', 'translateX(-'+getSlideWidth()[0]*index+'px)');
+        sliderList2.css('transform', 'translateX(-'+getSlideWidth()[1]*index+'px)');
+        sliderListItem.removeClass('active').eq(index).addClass('active');
+        sliderListItem2.removeClass('active').eq(index).addClass('active');
+        sliderList2.css('height', sliderListItem2.eq(index).children('div').outerHeight() + 'px');
+        currentCounter.html(index+1 < 10 ? '0'+(index+1) : index+1);
+    }
+
+    function moveNext() {
+        if (getCurrentSlideIndex() + 1 === totalSlides) {
+            moveTo(0);
+        } else {
+            moveTo(getCurrentSlideIndex() + 1);
+        }
+    }
+
+    function movePrev() {
+        if (getCurrentSlideIndex() - 1 < 0) {
+            moveTo(totalSlides - 1);
+        } else {
+            moveTo(getCurrentSlideIndex() - 1);
+        }
+    }
+
+    // Events
+    control.on('click', function() {
+        clearInterval(interval);
+        if ($(this).hasClass('left')) {
+            movePrev();
+        } else {
+            moveNext();
+        }
+    });
+
+    // Autoplay
+    var interval = setInterval(function(){
+        moveNext();
+    }, 7000);
+
+    // Init slider
+    initSlider();
+    $(window).on('resize', function() {
+        initSlider();
+    });
+}
+
+function validatePhone($phone) {
+    var phoneReg = /^[\s()+-]*([0-9][\s()+-]*){6,20}$/;
+    return phoneReg.test( $phone );
+}
+
+function validateEmail($email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,8})$/;
+    return emailReg.test( $email );
+}
+
+function validateName($name) {
+    var nameReg = /^[a-zA-Zа-яА-Я. ]{2,3000}$/;
+    return nameReg.test( $name );
+}
+
+// Form
+function consultForm() {
+    const form = $('#consult-form'),
+          name = $('#user-name-c'),
+          email = $('#user-email-c'),
+          tel = $('#user-tel-c'),
+          submitBtn = $('#consult-form-submit');
+
+    form.on('submit', function(event) {
+        event.preventDefault();
+        
+        if (validatePhone(tel.val()) && validateName(name.val())) {
+            // Serialize the form data.
+            var formData = form.serialize();
+
+            // Submit the form using AJAX.
+            $.ajax({
+                type: 'POST',
+                url: form.attr('action'),
+                data: formData,
+                beforeSend: function(){}
+            })
+            .done(function(response) {
+             console.log(response);
+             form[0].reset();
+             $('.consult-success').addClass('visible');
+            })
+            .fail(function(data) {
+             alert('Error occured. Try later.');
+            });
+        } else {
+            if (!validatePhone(tel.val())) {
+                tel.addClass('invalid');
+                setTimeout(function(){
+                    tel.removeClass('invalid');
+                }, 1000);
+            }
+            if (!validateEmail(email.val())) {
+                email.addClass('invalid');
+                setTimeout(function(){
+                    email.removeClass('invalid');
+                }, 1000);
+            }
+            if (!validateName(name.val())) {
+                name.addClass('invalid');
+                setTimeout(function(){
+                    name.removeClass('invalid');
+                }, 1000);
+            }
+        }
+    });
+}
+
 
 
 

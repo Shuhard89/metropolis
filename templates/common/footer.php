@@ -85,12 +85,14 @@
     <!-- SCRIPTS -->
     <script src="js/libs/jquery-3.3.1.min.js"></script>
     <script src="js/libs/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/libs/jquery.event.move.js"></script>
     <script src="js/libs/jquery.mobile.custom.min.js"></script>
     <script src="js/libs/rellax.min.js"></script>
     <script src="js/libs/selectize.js"></script>
     <script src="js/libs/rSlider.js"></script>
     <script src="js/libs/jquery.circliful.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFJl-oqf0NECka4ZBhXlOVfeUnLvAa-Yw&libraries=places"></script>
+    <script src="js/libs/jquery.twentytwenty.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKqbrvha4p20QERUocxfrpfESrUarPZuQ"></script>
     <script src="js/main.js?ver=1.05"></script>
     <!-- Specific scripts -->
     <?php
@@ -261,6 +263,30 @@
                 });
             </script>
         <?php }
+        if ( strpos( $currentpage, 'page_apps_remodeled.php' ) == true ) { ?>
+            <script>
+                $(function() {
+                    introSlider('#apps_remodeled_intro_slider');
+                    remodeledAdvantagesSlider('#remodeled_advantages_slider');
+                    addMetaToImages();
+                    collapsableStyleInfo();
+                    philosophySlider('#philosophy_slider');
+                    consultForm();
+                });
+                $(window).on('load', function() {
+                    $("#visual-impact-1").twentytwenty({
+                        default_offset_pct: 0.5, // How much of the before image is visible when the page loads
+                        orientation: 'horizontal', // Orientation of the before and after images ('horizontal' or 'vertical')
+                        before_label: 'Before', // Set a custom before label
+                        after_label: 'After', // Set a custom after label
+                        no_overlay: true, //Do not show the overlay with before and after
+                        move_slider_on_hover: false, // Move slider on mouse hover?
+                        move_with_handle_only: true, // Allow a user to swipe anywhere on the image to control slider movement. 
+                        click_to_move: true // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
+                    });
+                });
+            </script>
+        <?php }  
     ?>
 </body>
 </html>

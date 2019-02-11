@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/rSlider.min.css">
     <link rel="stylesheet" href="css/selectize.css">
+    <link rel="stylesheet" href="css/twentytwenty.css">
     <link rel="stylesheet" href="css/main.css?ver=1.06">
     <link rel="stylesheet" href="css/mediaq.css?ver=1.06">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -93,7 +94,7 @@
                                 <a href="page_gallery.php" class="gallery-button" data-images="['static/img/gallery/1.jpg','static/img/gallery/2.jpg','static/img/gallery/3.jpg','static/img/gallery/4.jpg','static/img/gallery/5.jpg','static/img/gallery/6.jpg','static/img/gallery/7.jpg','static/img/gallery/8.jpg','static/img/gallery/9.jpg','static/img/gallery/10.jpg']">Галерея</a>
                             </li>
                             <li>
-                                <a href="single_article.php">Квартири з ремонтом</a>
+                                <a href="page_apps_remodeled.php">Квартири з ремонтом</a>
                             </li>
                         </ul>
                     </div>
@@ -162,7 +163,7 @@
                             <a href="page_gallery.php" class="gallery-button" data-images="['static/img/gallery/1.jpg','static/img/gallery/2.jpg','static/img/gallery/3.jpg','static/img/gallery/4.jpg','static/img/gallery/5.jpg','static/img/gallery/6.jpg','static/img/gallery/7.jpg','static/img/gallery/8.jpg','static/img/gallery/9.jpg','static/img/gallery/10.jpg']">Галерея</a>
                         </li>
                         <li>
-                            <a href="single_article.php">Квартири з ремонтом</a>
+                            <a href="page_apps_remodeled.php">Квартири з ремонтом</a>
                         </li>
                     </ul>
                 </nav>
