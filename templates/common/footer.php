@@ -93,7 +93,7 @@
     <script src="js/libs/jquery.circliful.min.js"></script>
     <script src="js/libs/jquery.twentytwenty.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKqbrvha4p20QERUocxfrpfESrUarPZuQ"></script>
-    <script src="js/main.js?ver=1.05"></script>
+    <script src="js/main.js?ver=1.06"></script>
     <!-- Specific scripts -->
     <?php
         if ( $currentpage == '/' || $currentpage == '/projects/metropolis.front/' || strpos( $currentpage, 'index.php' ) == true ) { ?>
