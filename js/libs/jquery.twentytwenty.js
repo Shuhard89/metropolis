@@ -27,7 +27,7 @@
       }
       var beforeImg = container.find("img:first");
       var afterImg = container.find("img:last");
-      container.append("<div class='twentytwenty-handle'></div>");
+      container.append("<div class='twentytwenty-handle'><span class='twentytwenty-handle-pulse'></span></div>");
       var slider = container.find(".twentytwenty-handle");
       slider.append("<span class='twentytwenty-" + beforeDirection + "-arrow'></span>");
       slider.append("<span class='twentytwenty-" + afterDirection + "-arrow'></span>");
